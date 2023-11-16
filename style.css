@@ -91,3 +91,97 @@ input::placeholder{
 .y, .m, .d{
     color: brown;
 }
+
+@media screen and (max-width: 992px){
+    #inputs{
+        width: 75%;
+        border-radius: 18px 18px 90px 18px;
+    }
+
+    .inputs-body p{
+        font-size: 12px;
+        color: chocolate;
+        font-weight: 100;
+    }
+
+    .inputD, .inputM, .inputY{
+        padding: 10px 30px 10px 10px;
+    }
+
+    input::placeholder{
+        font-size: 14px;
+    }
+
+    .ri-instance-line{
+        font-size: 40px;
+    }
+
+    .mainbody h3{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #inputs{
+        width: 78%;
+        border-radius: 42px 18px 90px 18px;
+    }
+
+    .inputD, .inputM, .inputY{
+        padding: 6px 30px 6px 5px;
+    }
+    
+    .mainbody h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #inputs{
+        width: 95%;
+        border-radius: 55px 18px 90px 18px;
+    }
+
+    .inputs-body p{
+        font-size: 10px;
+    }
+
+    input::placeholder{
+        font-size: 10px;
+    }
+    
+    .ri-instance-line{
+        font-size: 30px;
+    }
+
+    .mainbody h3{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #inputs{
+        width: 100%;
+        border-radius: 10px 18px 80px 18px;
+    }
+
+    .inputs-body p{
+        font-size: 9px;
+    }
+
+    .inputD, .inputM, .inputY{
+        padding: 5px;
+    }
+
+    .inputY{
+        width: 85%;
+    }
+
+    input::placeholder{
+        font-size: 8px;
+    }
+
+    .mainbody h3{
+        font-size: 20px;
+    }
+}
