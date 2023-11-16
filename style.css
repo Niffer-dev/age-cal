@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+.modal-bg{
+    position: fixed;
+    background-color: #000000c2;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    background-color: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#inputs{
+   padding: 2rem;
+   background-color: antiquewhite;
+   width: 30%;
+   margin: auto;
+   margin-top: 5rem;
+   border-radius: 18px 18px 88px 18px ;
+}
+
+.inputs-body{
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
+}
+
+.inputD, .inputM, .inputY{
+    padding: 5px 15px 5px 5px;
+    width: 70%;
+    border: none;
+    box-shadow: #c73e3edc;
+}
+
+.inputs-body p{
+    font-size: 10px;
+    color: rgba(21, 31, 59, 0.363);
+}
+
+input::placeholder{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mainbody{
+    /* padding-top: 30px; */
+}
+
+.mainbody h3{
+    font-size: 40px;
+}
+
+.subbtn{
+    margin-top: 12%;
+}
+
+.ri-instance-line{
+    color: #fff;
+    font-weight: 100;
+    font-size: 35px;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+.y, .m, .d{
+    color: brown;
+}
