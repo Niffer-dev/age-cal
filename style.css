@@ -36,6 +36,12 @@ button{
     padding: 2rem;
 }
 
+.btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
 #inputs{
    padding: 2rem;
    background-color: antiquewhite;
@@ -115,6 +121,10 @@ input::placeholder{
     .mainbody h3{
         font-size: 35px;
     }
+
+    .modal-content{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -129,6 +139,10 @@ input::placeholder{
     
     .mainbody h3{
         font-size: 30px;
+    }
+
+    .modal-content{
+        width: 65%;
     }
 }
 
@@ -152,6 +166,10 @@ input::placeholder{
 
     .mainbody h3{
         font-size: 25px;
+    }
+
+    .modal-content{
+        width: 80%;
     }
 }
 
@@ -179,5 +197,15 @@ input::placeholder{
 
     .mainbody h3{
         font-size: 20px;
+    }
+
+    .modal-content{
+        width: 85%;
+        padding: 1rem;
+    }
+
+    .modal-content p{
+        font-size: 14px;
+        padding-top: 10px;
     }
 }
