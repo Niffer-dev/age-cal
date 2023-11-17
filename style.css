@@ -16,8 +16,10 @@ button{
 
 .modal-bg{
     position: fixed;
+    top: 0;
+    left: 0;
     background-color: #000000c2;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: none;
     justify-content: center;
@@ -142,7 +144,7 @@ input::placeholder{
     }
 
     .modal-content{
-        width: 65%;
+        width: 80%;
     }
 }
 

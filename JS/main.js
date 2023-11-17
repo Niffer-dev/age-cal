@@ -38,3 +38,15 @@ document.querySelector(".btn").addEventListener("click", () => {
     errorAlert.style.display = "none"
     errorMessage.textContent = ""
 })
+
+async function getData(){
+    const response  = await fetch("https://api.adviceslip.com/advice",{
+        method:"GET"
+    })
+    const data = await response.json()
+
+    document.querySelector(".info").textContent = data.slip.advice
+    console.log(data)
+}
+
+getData()
