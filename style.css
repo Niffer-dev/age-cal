@@ -68,10 +68,6 @@ input::placeholder{
     font-weight: 600;
 }
 
-.mainbody{
-    /* padding-top: 30px; */
-}
-
 .mainbody h3{
     font-size: 40px;
 }
@@ -128,7 +124,7 @@ input::placeholder{
     }
 
     .inputD, .inputM, .inputY{
-        padding: 6px 30px 6px 5px;
+        padding: 6px 5px 6px 5px;
     }
     
     .mainbody h3{
